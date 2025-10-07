@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Chat Friends</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🤖 AI Chat Friends</h1>
+
+    <div class="choose">
+      <h2>Choose Your Friend</h2>
+      <select id="friendSelect">
+        <option value="Gubbu">Gubbu (funny & random)</option>
+        <option value="Error.exe">Error.exe (glitchy but smart)</option>
+        <option value="TacoBot">TacoBot (loves tacos 🌮)</option>
+        <option value="custom">Make Your Own Friend</option>
+      </select>
+
+      <div id="customFriend" style="display:none;">
+        <input type="text" id="customName" placeholder="Friend Name">
+        <input type="text" id="customPersonality" placeholder="Personality (funny, serious, etc)">
+      </div>
+      <button id="startChat">Start Chat</button>
+    </div>
+
+    <div class="chat" id="chatArea" style="display:none;">
+      <h2 id="friendName"></h2>
+      <div id="messages"></div>
+      <input type="text" id="userInput" placeholder="Say something...">
+      <button id="sendBtn">Send</button>
+    </div>
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>

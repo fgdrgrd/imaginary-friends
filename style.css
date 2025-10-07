@@ -1,0 +1,60 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #1b1b2f, #16213e);
+  color: white;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background: #0f3460;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.4);
+}
+
+h1 {
+  color: #e94560;
+}
+
+select, input {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  border: none;
+  width: 80%;
+}
+
+button {
+  background: #e94560;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+}
+
+#messages {
+  background: #1a1a2e;
+  border-radius: 10px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.msg {
+  margin: 5px 0;
+}
+
+.user {
+  color: #00adb5;
+}
+
+.bot {
+  color: #f0a500;
+}
